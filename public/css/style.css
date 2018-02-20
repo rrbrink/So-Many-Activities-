@@ -60,3 +60,16 @@
       transform: translate3d(4px, 0, 0);
     }
   }
+  #randomResult{
+    color: red;
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0 0 0;
+  }
+  #contentRandom{
+    text-align: center;
+    margin: auto;
+  }
+  #buttonsRandom{
+    margin: 20px 0 0 30%;
+  }

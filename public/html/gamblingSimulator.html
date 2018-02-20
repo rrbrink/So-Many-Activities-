@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The extreme randomizer</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="../js/random.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+</head>
+
+<body>
+    <div id="contentRandom">
+    <div class="row">
+        <div class="col-md-5">
+            <div class="form-group">
+                <label for="usr">Starting Number:</label>
+                <input type="text" class="form-control" id='startingNumber'>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <div class="form-group">
+                <label for="usr">Ending Number:</label>
+                <input type="text" class="form-control" id="endingNumber">
+            </div>
+        </div>
+    </div>
+    <div id="buttonsRandom" class="row">
+        <input id="buttonRandom" id="randomOne" type="submit" class="btn btn-info" value="A Little random">
+        <input id="buttonRandom" id="randomTwo" type="submit" class="btn btn-info" value="Medium Random">
+        <input id="buttonRandom" id="randomThree" type="submit" class="btn btn-info" value="Higly Random">
+        <input id="buttonRandom" id="randomFour" type="submit" class="btn btn-info" value="The most Random">
+   
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div id="randomResult"><p>Result:</p> <h1 id="result"></div>
+
+            </h1>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
