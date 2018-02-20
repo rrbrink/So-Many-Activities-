@@ -1,0 +1,25 @@
+{
+  "name": "so-many-activities-",
+  "version": "1.0.0",
+  "description": "Project #3. I decided to create an interface that has tools, games, and random shanagans to help pass the time. The website will also have a forum system to post questions or start discussions.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrbrink/So-Many-Activities-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rrbrink/So-Many-Activities-/issues"
+  },
+  "homepage": "https://github.com/rrbrink/So-Many-Activities-#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^3.0.2",
+    "mongoose": "^5.0.6",
+    "passport": "^0.4.0"
+  }
+}
