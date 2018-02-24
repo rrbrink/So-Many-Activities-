@@ -1,5 +1,5 @@
 var result
-var 
+
 
 $( "#randomOne" ).on( "click", "tr", function() {
     console.log( $( this ).text() );

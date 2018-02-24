@@ -73,3 +73,15 @@
   #buttonsRandom{
     margin: 20px 0 0 30%;
   }
+  #gamblingGif{
+    display: inline-block;
+    margin-left: 5px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 1px solid black;
+  }
+  #gamblingTxt{
+font-size: 20px;
+text-align: center;
+  }
